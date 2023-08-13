@@ -1,8 +1,11 @@
 // Establecer el tamaño del canvas
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-const width = canvas.width = 400;
-const height = canvas.height = 400;
+// const width = canvas.width = 400;
+// const height = canvas.height = 400;
+const width = canvas.width = innerWidth - 50;
+const height = canvas.height = innerHeight - 50;
+
 
 // Variables de la serpiente
 let snake = [];
